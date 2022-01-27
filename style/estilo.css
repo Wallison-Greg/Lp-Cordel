@@ -1,11 +1,21 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=The+Nautigal&display=swap');
+
+:root{
+    /*Variaveis para fontes*/
+
+    --fonte-normal: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-imagem: 'The Nautigal', cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 html, body{
+    font-family: var(--fonte-normal);
     background-color: darkgray;
     min-height: 100vh;
 }
@@ -17,6 +27,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 3vw;
 }
 header p{
     padding-bottom: 50px;
@@ -33,22 +44,26 @@ a:hover{
 main > section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 30px;
+    line-height: 5vw;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.253);
-    width: 250px;
-    padding: 15px 0px 15px 80px;
+    display: inline-block;
+    padding: 15px;
+    font-family: var(--fonte-imagem);
+}
+.normal > p {
+    font-family: var(--fonte-imagem);
+    font-weight: bold;
 }
 .normal{
     background-color: white;
-    font-weight: bolder;
 }
 .imagem{
     background-color: rgb(37, 37, 37);
     color: white;
-    font-weight: bolder;
 }
 footer{
     background-color: black;
