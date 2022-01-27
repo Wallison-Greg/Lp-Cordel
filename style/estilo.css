@@ -48,11 +48,16 @@ main > section{
     padding-left: 30px;
     font-size: 3.5vw;
 }
+main p{
+    padding-bottom: 2em;
+}
 .imagem > p {
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.336);
     display: inline-block;
+    border-radius: 10px;
     padding: 15px;
     font-family: var(--fonte-imagem);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
 }
 .normal > p {
     font-family: var(--fonte-imagem);
@@ -64,6 +69,17 @@ main > section{
 .imagem{
     background-color: rgb(37, 37, 37);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.459);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img1{
+    background-image: url('../img/background001.jpg');
+    background-position: right center;
+}
+#img2{
+    background-image: url('../img/background002.jpg');
+    background-position: right center;
 }
 footer{
     background-color: black;
@@ -71,3 +87,5 @@ footer{
     color: white;
     padding: 10px;
 }
+
+/*ao utilizar os valores "vh" ou "vw" gera um aspecto responsivo na pagina ja que esses valores tem referencias logicas sobre a altura da pagina e a largura da pagina*/
