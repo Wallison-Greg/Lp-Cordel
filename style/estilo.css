@@ -27,10 +27,11 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 header p{
     padding-bottom: 50px;
+    font-size: 2vw;
 }
 a{
     color: white;
@@ -46,7 +47,7 @@ main > section{
     padding-bottom: 10vh;
     line-height: 5vw;
     padding-left: 30px;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
 }
 main p{
     padding-bottom: 2em;
@@ -86,6 +87,7 @@ footer{
     text-align: center;
     color: white;
     padding: 10px;
+    font-size: 1.5vw;
 }
 
 /*ao utilizar os valores "vh" ou "vw" gera um aspecto responsivo na pagina ja que esses valores tem referencias logicas sobre a altura da pagina e a largura da pagina*/
